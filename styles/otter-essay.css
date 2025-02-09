@@ -15,18 +15,12 @@ body {
 
 .essay {
   position: relative;
-  width: 90%;
+
+  width: clamp(250px, 90vw, 500px);
   padding: 0 0 0rem;
   background-color: antiquewhite;
   border-radius: 1rem;
-
-  @media screen and (max-width: 768px) {
-    width: 90%;
-  }
-
-  @media screen and (min-width: 769px) {
-    width: 40%;
-  }
+  margin: 0 auto;
 }
 
 .essay__heading {

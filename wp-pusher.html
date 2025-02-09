@@ -3,7 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WP Pusher Checkout</title>
+    <link rel="stylesheet" href="./styles/wp-pusher.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="checkout-box">
+        <div class="left-panel">
+          <h2>Checkout</h2>
+          <div class="input-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="Jane" />
+          </div>
+          <div class="input-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="Doe" />
+          </div>
+          <div class="input-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="janedoe@example.com" />
+          </div>
+          <div class="input-group">
+            <label for="card">Credit Card</label>
+            <input type="text" id="card" placeholder="Card Number" />
+          </div>
+          <button class="btn">Buy WP Pusher</button>
+          <p class="support">
+            Need any help? Don't hesitate to <a href="#">contact</a> support!
+          </p>
+        </div>
+        <div class="right-panel">
+          <h2>Freelancer</h2>
+          <p class="plan-details">
+            <span class="enlarge">$99 </span>/ year<br />Automatically renews
+            after 1 year
+          </p>
+          <ul>
+            <li>Use on 5 client sites</li>
+            <li>Private repositories</li>
+            <li>Email support</li>
+          </ul>
+          <p class="plan-details">
+            Need 20 client sites?
+            <a href="#" style="color: white">Switch to the Agency plan.</a>
+          </p>
+          <p style="font-style: italic">
+            FTP is horrible to deal with.
+            <strong>WP Pusher solves that issue</strong>, and the customer
+            support is awesome!
+          </p>
+          <p><strong>Kirk Beard</strong></p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

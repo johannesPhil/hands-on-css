@@ -38,13 +38,15 @@ body {
 
 .link {
   flex: 1 0;
-  padding: 1rem 2rem;
+
   border: solid 1px white;
   border-radius: 1rem;
   white-space: nowrap;
   text-align: center;
 
   a {
+    display: block;
+    padding: 1rem 2rem;
     text-decoration: none;
     color: white;
   }
